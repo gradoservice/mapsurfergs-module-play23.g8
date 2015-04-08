@@ -1,7 +1,4 @@
-import java.io.File
-
 import play.PlayJava
-import play.PlayImport.PlayKeys.playPackageAssets
 
 
 name := "mapsurferjs-module-$application_name$"
@@ -10,7 +7,6 @@ version := "1.0-SNAPSHOT"
 
 organization := "$organization_name$"
 
-val geotoolsVersion = "9.5"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
@@ -20,7 +16,7 @@ libraryDependencies ++= Seq(
   // Add your project dependencies here,
   javaJdbc,
   cache,
-  javaEbean withSources(),
+  javaEbean,
   javaWs,
    "com.gradoservice" %% "geoportal" % "3.6",
   "com.gradoservice" %% "geoportal" % "3.6"  classifier "assets"
