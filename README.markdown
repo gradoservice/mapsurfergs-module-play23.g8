@@ -4,7 +4,7 @@
 ###	 1.1	instal conscript
 
 	
-	There are two methods of installiation available.
+There are two methods of installiation available.
 
 ###	Linux, Mac, Windows
 
@@ -14,15 +14,17 @@ Download the [conscript runnable jar][jar]. On most OSes you can run it by doubl
 	
 [jar]: https://github.com/n8han/conscript/releases/download/0.4.4-1/conscript-0.4.4-1.jar
 	
-	A "splash screen" will appear during installation. Don't close it until you see a message that cs was installed, or that something went wrong.
+A "splash screen" will appear during installation. Don't close it until you see a message that cs was installed, or that something went wrong.
 
-	Linux, Mac
+## Linux, Mac
 
-	If you prefer, you can install conscript by piping this shell script.
+If you prefer, you can install conscript by piping this shell script.
 
 	curl https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh	
 	
-###	 1.2 cs n8han/giter8
+###	 1.2 install g8
+	
+	cs n8han/giter8
 	
 
 2. create module from template
