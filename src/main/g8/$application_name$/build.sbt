@@ -19,7 +19,8 @@ libraryDependencies ++= Seq(
   javaEbean,
   javaWs,
    "com.gradoservice" %% "geoportal" % "3.6",
-  "com.gradoservice" %% "geoportal" % "3.6"  classifier "assets"
+  "com.gradoservice" %% "geoportal" % "3.6"  classifier "assets",
+  "com.lowagie" % "itext" % "2.1.7"
 )
 
 // Add your own project settings here
