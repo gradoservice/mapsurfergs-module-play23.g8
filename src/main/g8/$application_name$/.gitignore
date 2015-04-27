@@ -4,3 +4,14 @@ project/target
 target
 tmp
 .history
+dist
+.idea
+.idea_modules
+.settings
+.sass-cache
+blocksHtml
+jsModules
+statics
+design
+data
+coverages
