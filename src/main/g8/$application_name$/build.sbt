@@ -1,7 +1,7 @@
 import play.PlayJava
 
 
-name := "mapsurferjs-module-$application_name$"
+name := "mapsurfergs-module-$application_name$"
 
 version := "1.0-SNAPSHOT"
 
